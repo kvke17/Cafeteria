@@ -45,7 +45,7 @@ export default function TarjetaProducto({ producto }) {
           className={`btn-favorito ${esFavorito ? 'activo' : ''}`}
           onClick={handleFavorito}
         >
-          {esFavorito ? '♥ En favoritos' : '♡ Añadir a favoritos'}
+          {esFavorito ? '♥ Guardado En favoritos' : '♡ Añadir a favoritos'}
         </button>
       </div>
     </div>
